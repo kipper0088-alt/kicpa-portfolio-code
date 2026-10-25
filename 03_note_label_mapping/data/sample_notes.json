@@ -1,0 +1,52 @@
+{
+  "data_type": "100% 합성 데이터",
+  "unit": "백만원",
+  "notes": [
+    {
+      "id": "ppe",
+      "name": "유형자산 주석",
+      "balance_sheet": 1150,
+      "rows": [
+        {"label": "기초잔액", "amount": 1000},
+        {"label": "취득", "amount": 300},
+        {"label": "처분", "amount": 50},
+        {"label": "감가상각", "amount": 100},
+        {"label": "기말잔액", "amount": 1150}
+      ]
+    },
+    {
+      "id": "intangible",
+      "name": "무형자산 주석",
+      "balance_sheet": 540,
+      "rows": [
+        {"label": "기초", "amount": 500},
+        {"label": "증가", "amount": 120},
+        {"label": "감소", "amount": 20},
+        {"label": "상각", "amount": 60},
+        {"label": "기말", "amount": 540}
+      ]
+    },
+    {
+      "id": "provision",
+      "name": "충당부채 주석",
+      "balance_sheet": 850,
+      "rows": [
+        {"label": "기초잔액", "amount": 800},
+        {"label": "당기증가", "amount": 150},
+        {"label": "당기감소", "amount": 100},
+        {"label": "기말잔액", "amount": 850}
+      ]
+    },
+    {
+      "id": "typo",
+      "name": "오타 예외 테스트",
+      "balance_sheet": 230,
+      "rows": [
+        {"label": "기초잔액", "amount": 200},
+        {"label": "당기증갸", "amount": 40},
+        {"label": "감소", "amount": 10},
+        {"label": "기말잔액", "amount": 230}
+      ]
+    }
+  ]
+}
